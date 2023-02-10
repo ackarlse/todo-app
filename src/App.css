@@ -36,3 +36,66 @@
     transform: rotate(360deg);
   }
 }
+
+header{
+  padding: 1rem;
+  box-shadow: 10px 0 21px #898989;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.todo-btn {
+  background-color: #12f2a7;
+  padding: .5rem 1rem;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 900;
+}
+
+.main-content, .container{
+  max-width: 900px;
+  width: 100%;
+  margin: 1rem auto;
+}
+.main-content{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.container form{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.container form label{
+  font-weight: 900;
+}
+input, textarea{
+  border: 1px solid #aeaeae;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+input{
+  max-width: 300px;
+  width: 100%;
+}
+
+textarea{
+  height: 30vh;
+}
+
+form .todo-btn{
+  max-width: 100px;
+  width: 100%;
+}
+.main-content article{
+  max-width: 250px;
+  word-break: break-all;
+  width: 100%;
+  padding: 1rem;
+  box-shadow: 3px 4px 7px #d4d4d4;;
+  border-radius: 20px;
+}
